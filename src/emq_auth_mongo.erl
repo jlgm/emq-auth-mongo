@@ -27,7 +27,7 @@
 
 -behaviour(ecpool_worker).
 
--export([replvar/2, connect/1, query/2]).
+-export([replvar/2, connect/1, query/2, query_all/2]).
 
 -record(state, {authquery, superquery}).
  
